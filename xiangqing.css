@@ -710,24 +710,26 @@ background: url(img/move.png?16a911ed975);
  left:0;
  top: 0;
  display: none;
-
+ 
+}
+.pull-left-img .big-img{
+    width: 558px;
+    height: 558px;
+    border: 2px solid #b0b0b0;
+    background: #fff;
+    left: 515px;
+    z-index: 100;
+    overflow: hidden;
+    top:0;
+    position: absolute;
+    display: none;
 }
 .pull-left-img .bimg{
     position: absolute;
     top:0;
     left:0; 
 }
-.pull-left-img .big-img{
-    width: 558px;
-height: 558px;
-border: 2px solid #b0b0b0;
-background: #fff;
-left: 515px;
-z-index: 100;
-overflow: hidden;
-top:0;
-position: absolute;
-}
+
 .sbox{
     position: relative;
     width: 420px;
