@@ -62,8 +62,6 @@ a {
     z-index: 1000;
     
 }
-
-
 .yohuo-list .A1 .a1{
     
     display: none;
@@ -290,7 +288,6 @@ display: none;
     height: 96px;
     
 }
-
 .qr-words{
     height: 18px;
     line-height: 18px;
@@ -329,7 +326,6 @@ margin-top: 22px;
 position: absolute;
 
 }
-
 .main-nav-list{
    
     vertical-align: top;
@@ -546,8 +542,6 @@ border-bottom: 2px solid #fff;
     display: none;
  
 }
-
-
 .nav-wrapper  .cintain-third .third-nav-wrapper dl:first-child{
     width: 228px;
 border-left: 0;
@@ -727,6 +721,7 @@ z-index: 100;
 overflow: hidden;
 top:0;
 position: absolute;
+ display: none; 
 }
 .sbox{
     position: relative;
@@ -793,7 +788,6 @@ float: right;
     margin-bottom: 15px;
     border: 2px solid #fff;
 }
-
 .ll:hover{
     border: 2px solid #000;
 }
@@ -980,7 +974,6 @@ border: 1px solid #999;
     float: left;
     border-color: #000;
 }
-
 .fous img{
     float: left;
  display: inline-block;
@@ -1007,6 +1000,27 @@ letter-spacing: 5px;
 line-height: 20px;
 margin-top: 4px;
 float: left;
+}
+.size-warn{
+    font-size: 13px;
+    color: #d0021b;
+    clear: both;
+    line-height: 25px;
+    display:none;
+}
+.few-sold{
+    display: none;
+    float: left;
+    font-size: 13px;
+    padding: 2px 4px;
+    margin-top: 6px;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: #000;
+}
+.few-sold i{
+    color: #d0021b;
+    font-style:normal; 
 }
 .chose-size .sku{
     letter-spacing: 22px;
@@ -1039,6 +1053,17 @@ border: 1px solid #999;
 text-align: center;
 cursor: pointer;
 min-width: 10px;
+}
+.chose-size li.focus{
+    color: #fff;
+    background: #222;
+    border: 1px solid #222;
+}
+.color-size{
+    font-size: 13px;
+    color: #999;
+    clear: both;
+    line-height: 25px;
 }
 .chose-count{
     margin-bottom: 10px;
@@ -1200,4 +1225,22 @@ font-size: 14px;
 line-height: 20px;
 color: #000;
 text-align: center;
+}
+.hed{
+    font-size: 18px;
+   
+}
+.item{
+    margin-top: 23px;
+    margin-left:15px;
+}
+.item .title{
+    display: block;
+    margin-bottom: 11px;
+    margin-left:10px;
+    font-family: iconfont!important;
+}
+.item .desc{
+    font-size: 14px;
+    color: #b0b0b0!important;
 }
