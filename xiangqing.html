@@ -583,8 +583,8 @@
 box.onmousemove=function(e){
 	var e=e||event;
 	//遮罩层的鼠标焦点为中心位置
-    var l=e.pageX-$("#box").offset().left-mask.offsetWidth/2;  
-	var t=e.pageY-$("#box").offset().top-mask.offsetHeight/2;
+    var l=e.pageX-$("#box").offset().left-($(".mask").width()/2);  
+	var t=e.pageY-$("#box").offset().top-($(".mask").height()/2);
 	var maxL=box.offsetWidth-mask.offsetWidth;//边界处理
     var maxT=box.offsetHeight-mask.offsetHeight;
 
